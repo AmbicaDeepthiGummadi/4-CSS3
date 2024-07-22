@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>CSS3 Multiple Move</title>
+    <style>
+      .amb{
+        margin:50px;
+        width: 400px;
+        height: 300px;
+        background: url("img.jpg")no-repeat;
+        position: relative;
+        animation: repeatit 6s linear 1s infinite alternate;
+      }
+      @keyframes repeatit{
+        from {left: 0;}
+        to{left: 50%;}
+      }
+    </style>
+</head>
+<body>
+   <div class="amb"></div>
+</body>
+</html>

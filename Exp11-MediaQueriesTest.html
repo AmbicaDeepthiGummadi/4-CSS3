@@ -1,0 +1,44 @@
+<html>
+<head><title>Media Queries</title>
+    <style>
+        .container{
+            margin:0 auto;background: rgb(38, 162, 211);
+            box-sizing: border-box;
+        }
+        @media screen and (min-width:767px){
+        .container{
+            width:100%;padding: 5px 10px;
+        }
+    }
+        @media screen and (min-width:768px) and (max-width:1024){
+        .container{
+            width: 750px;padding: 5px 10px;
+        }
+    }
+        @media screen and (min-width:1024px){
+        .container{
+           width: 980px;padding: 5px 15px;
+        }
+    }
+    @media screen and (min-width:1280px){
+        .container{
+            width: 1200px;padding: 5px 20px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <h1>CSS3 Web Technologies</h1>
+      <p>Media Queries are useful</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicingelit.
+        Praesentium illum dolorum tenetur dignissimosvelit tempora
+        deserunt nam unde nesciunt distinctio tempore culpa quos
+        ure commodi voluptate possimus, impedit non.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+       elit. Praesentium illum dolorum tenetur dignissimos
+       velit tempora deserunt nam unde nesciunt distinctio
+       tempore culpa quos iure commodi voluptate possimus, impedit non.</p>
+    </div>
+</body>
+</html>
